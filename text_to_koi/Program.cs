@@ -193,7 +193,10 @@ namespace text_to_koi
             {
                 Console.Write("Введите текст:");
                 string text = Console.ReadLine();
+                if (text == "jojo is cool")
+                    Console.WriteLine("Yes jojo is cool");
                 Console.WriteLine(Convertor(text));
+                
             }
         }
     }
