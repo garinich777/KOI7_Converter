@@ -8,6 +8,7 @@ namespace text_to_koi
 {
     class Program
     {
+        //yep thats a mod
         static string Convertor(string text)
         {
             string koi = "";
